@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Курсова</title>
+  </head>
+  <body>
+    <div class="page">
+      <main class="page__content">
+        <header class="header">
+          <div class="logo">Маделін Торфф</div>
+          <nav class="nav">
+            <a href="#" class="nav__link">Про мене</a>
+            <a href="#" class="nav__link">Проекти</a>
+            <a href="#" class="nav__link">Контакти</a>
+          </nav>
+        </header>
+        <section class="first-display">
+          <div class="first-display__content">
+            <div class="section__label">UI/UX Дизайнер</div>
+            <h1 class="title title_h1">Привіт, мене звати Маделін Торфф</h1>
+            <p class="first-display__descr">
+              Короткий текст з деталями про вас, чим ви займаєтесь або ваша професійна кар'єра. Більше інформації можна додати на сторінці "Про мене".
+            </p>
+            <div class="first-display__actions">
+              <button class="btn btn_primary">Проекти</button>
+              <button class="btn btn_outline">LinkedIn</button>
+            </div>
+          </div>
+          <img
+            src="./src/assets/img/first_display_bg.jpg"
+            srcset="./src/assets/img/first_display_bg@2x.jpg 2x"
+            alt="Маделін Торфф"
+            class="first-display__bg"
+          />
+        </section>
+        <section class="projects">
+          <h2 class="title title_h2 title_decorated">Проекти</h2>
+          <div class="projects__list">
+            <div class="card">
+              <div class="card__content">
+                <h3 class="card__title">Назва проекту</h3>
+                <p class="card__descr">
+                  Я створив цей персональний проєкт, щоб показати, як створити інтерфейс у Figma.
+                </p>
+                <button class="btn btn_round">Переглянути проект</button>
+              </div>
+              <img
+                src="./src/assets/img/portfolio_1.jpg"
+                srcset="./src/assets/img/portfolio_1@2x.jpg 2x"
+                alt=""
+                class="card__img"
+              />
+            </div>
+            <div class="card card_direction_reverse">
+              <div class="card__content">
+                <h3 class="card__title">Назва проекту</h3>
+                <p class="card__descr">
+                  Яка була ваша роль, ваші результати, чи був проєкт персональним або фрилансом.
+                </p>
+                <button class="btn btn_round">Переглянути проект</button>
+              </div>
+              <img
+                src="./src/assets/img/portfolio_2.jpg"
+                srcset="./src/assets/img/portfolio_2@2x.jpg 2x"
+                alt=""
+                class="card__img"
+              />
+            </div>
+            <div class="card">
+              <div class="card__content">
+                <h3 class="card__title">Назва проекту</h3>
+                <p class="card__descr">
+                  У цьому описі також можна вказати тип проекту, чи це був веб, мобільний або electron.
+                </p>
+                <button class="btn btn_round">Переглянути проект</button>
+              </div>
+              <img
+                src="./src/assets/img/portfolio_3.jpg"
+                srcset="./src/assets/img/portfolio_3@2x.jpg 2x"
+                alt=""
+                class="card__img"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <h2 class="title title_h2 title_decorated">Контакти</h2>
+          <form action="" class="form">
+            <div class="field form__field">
+              <label for="form-name" class="field__label">Ім'я</label>
+              <input id="form-name" type="text" class="field__input" />
+            </div>
+            <div class="field form__field">
+              <label for="form-email" class="field__label">Email</label>
+              <input id="form-email" type="text" class="field__input" />
+            </div>
+            <div class="field form__field">
+              <label for="form-message" class="field__label">Повідомлення</label>
+              <textarea
+                id="form-message"
+                type="text"
+                class="field__textarea"
+                rows="11"
+              ></textarea>
+            </div>
+            <button class="btn btn_primary">Відправити</button>
+          </form>
+        </section>
+        <footer class="footer">
+          <div class="socials">
+            <a href="#" class="socials__link">
+              <img
+                src="./src/assets/icons/email.svg"
+                alt="email"
+                class="socials__icon"
+              />
+            </a>
+          </div>
+          <p class="copyright">Маделін Торфф 2025</p>
+        </footer>
+      </main>
+      <img
+        src="./src/assets/icons/footer_bg.svg"
+        alt=""
+        class="footer__decor"
+      />
+    </div>
+  </body>
